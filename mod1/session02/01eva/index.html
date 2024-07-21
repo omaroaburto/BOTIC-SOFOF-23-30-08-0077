@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio de comprobación sesión 2</title>
+    <style>
+        form{
+            padding: 20px; 
+        }
+        form div div {
+            padding: 5px;
+            display: flex; justify-content:flex-start; align-items: start; flex-direction: column;
+        }
+        input{
+            padding: 5px;
+            box-shadow: 2px 1px 1px 1px rgba(31, 19, 19,0.5);
+        }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        
+      <form action="#" method="get">
+        <div >
+            <h1>FORMULARIO</h1>
+          <div>
+            <label for="name">NOMBRE</label
+            ><input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="direccion">DIRECCIÓN</label
+            ><input type="text" name="direccion" id="direccion" />
+          </div>
+          <div>
+            <label for="especialidad">ESPECIALIDAD MÉDICA</label>
+            <select name="especialidad" id="especialidad">
+              <option value="medicina_interna">MEDICINA INTERNA</option>
+              <option value="medicina_general">MEDICINA GENERAL</option>
+              <option value="traumatologia">TRAUMATOLOGIA</option>
+              <option value="nutricionista">NUTRICIONISTA</option>
+            </select>
+          </div>
+          <div>
+            <label for="fecha">FECHA</label
+            ><input type="date" name="fecha" id="fecha" />
+          </div>
+          <div>
+            <label for="hora">HORA</label
+            ><input type="time" name="hora" id="hora" />
+          </div>
+          <div>
+            <label for="email">CORREO</label
+            ><input type="email" name="email" id="email" />
+          </div>
+          <div><input type="button" value="Confirmar" /></div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

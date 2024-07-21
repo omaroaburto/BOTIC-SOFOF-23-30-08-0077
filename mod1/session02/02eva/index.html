@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluación Módulo Formularios</title>
+    <style>
+        .caja{ 
+            display: flex; justify-content:flex-start; align-items: center; flex-direction: column;
+        }
+        form div{
+            padding: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="caja">
+      <form action="#" method="get">
+        <h1>Regístrate</h1>
+        <div>
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="Apellido"
+          />
+        </div>
+        <div>
+          <input type="email" name="email" id="email" placeholder="Email" />
+        </div>
+        <div>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Contraseña"
+          />
+        </div>
+        <div><input type="button" value="Regístrate" /></div>
+      </form>
+      <p>
+        ¿Ya eres miembro?<b> <a href="#">inicia tu sesión</a> </b>
+      </p>
+    </div>
+  </body>
+</html>

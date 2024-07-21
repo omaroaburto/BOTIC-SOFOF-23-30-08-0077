@@ -1,0 +1,62 @@
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table td {
+    padding: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.turquoise {
+    background-color: turquoise;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
